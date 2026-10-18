@@ -29,3 +29,6 @@ Encabezado del reproductor fijo con más espacio y contenido que se desplaza por
 
 ## Actualización 1.1.1
 Favoritas comienza vacía en dispositivos nuevos o sin preferencias guardadas. Las emisoras elegidas por cada persona siguen guardándose solo en su navegador; se conservan durante las actualizaciones.
+
+## Corrección 1.1.2
+Limpieza única de favoritas almacenadas por las versiones antiguas, incluidas las precargadas. La marca `favoritesVersion: 2` preserva las elecciones posteriores; no se eliminan emisoras personales ni colores ni configuración. El módulo de preferencias se versiona junto al resto de la app para evitar mezclar archivos antiguos y nuevos.
