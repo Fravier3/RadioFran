@@ -26,3 +26,6 @@ hls.js 1.6.13 (BSD-2-Clause), incluido localmente en `assets/hls.light.min.js`. 
 
 ## Actualización 1.1.0
 Encabezado del reproductor fijo con más espacio y contenido que se desplaza por separado para Safari/iPhone. Temporizador y enlaces externos ocultos mediante flags de producto. Logos originales de las 22 emisoras guardados localmente; procedencia documentada en `assets/logos/sources.json`. Se mantienen el nombre, URL, iconos instalados y la clave de preferencias. Caché 1.1.0 con revalidación de red, recarga controlada y limpieza únicamente de cachés antiguas de Radio Fran.
+
+## Actualización 1.1.1
+Favoritas comienza vacía en dispositivos nuevos o sin preferencias guardadas. Las emisoras elegidas por cada persona siguen guardándose solo en su navegador; se conservan durante las actualizaciones.
