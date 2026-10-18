@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es-PR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#00393d"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="description" content="Tu isla, tu música, tu radio. Emisoras AM y FM de Puerto Rico en Radio Fran."><title>Radio Fran · La radio de nuestra isla</title><link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./assets/icon-192.png"><link rel="apple-touch-icon" href="./assets/icon-180.png"><link rel="stylesheet" href="./style.css?v=1.0.0"><script defer src="./assets/hls.light.min.js"></script><script type="module" src="./app.js?v=1.0.0"></script></head>
+<body>
+<svg class="svg-library" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+<symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5Z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="m9 3 1-2h4l1 2 2 1 2-.3 2 3-1 2v3l1 2-2 3-2-.3-2 1-1 2h-4l-1-2-2-1-2 .3-2-3 1-2v-3L3 7l2-3 2 .3Z" transform="translate(0 1) scale(1 .95)"/><circle cx="12" cy="11.5" r="3.5"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="m8 4 12 8-12 8Z"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="4"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+<symbol id="i-edit" viewBox="0 0 24 24"><path d="m16 3 5 5-12 12-6 1 1-6Zm-10 11 5 5M14 5l5 5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="m8 5 7 7-7 7M18 5v14"/></symbol>
+<symbol id="i-palm" viewBox="0 0 64 64"><path d="M29 58c6-13 8-25 7-37M35 22C26 7 10 13 6 23c11-4 20-3 29-1ZM35 22C36 7 53 5 60 17c-10-1-17 1-25 5ZM35 22C23 16 10 30 13 40c7-8 14-13 22-18ZM35 22C50 16 59 31 55 40c-4-9-10-14-20-18ZM35 22c-4-13-1-18 3-20"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 64 64"><path d="M31 60 38 7M35 26 19 10l2 20 13 7M36 17 50 5l-1 17-14 12M32 43 11 27l5 21 15 5M33 38l24-15-8 23-18 13"/></symbol>
+<symbol id="i-flower" viewBox="0 0 64 64"><path d="M32 27C13-3-1 24 22 33-4 43 16 67 29 43c6 32 35 13 14-5 34-4 18-34-4-13 6-25-23-26-7 2Z"/><path d="m32 34 16 18"/></symbol>
+<symbol id="i-wave" viewBox="0 0 64 64"><path d="M5 28c9-21 30-26 47-8C33 13 22 28 5 28ZM4 37c17 6 30-15 53-8-9 3-18 18-32 16-8 0-15-3-21-8ZM12 49c15 9 25-5 43-5-12 15-33 18-43 5Z"/></symbol>
+</defs></svg>
+<div class="app-shell">
+<header class="hero"><div class="hero-shade"></div><div class="brand"><div><p class="eyebrow">HECHA PARA ESCUCHAR LA ISLA</p><h1>Radio <span>Fran</span></h1><p class="tagline">La radio de nuestra isla</p></div><button id="settings" class="icon-button glass" aria-label="Abrir ajustes"><svg><use href="#i-settings"/></svg></button></div></header>
+<main id="main"><div class="searchbox"><svg><use href="#i-search"/></svg><input id="search" type="search" placeholder="Buscar emisora" aria-label="Buscar emisora" autocomplete="off"><span class="search-hint">PR</span></div>
+<div class="band-tabs" role="group" aria-label="Filtrar por banda"><button data-band="Todas" aria-pressed="true">Todas</button><button data-band="AM" aria-pressed="false">AM</button><button data-band="FM" aria-pressed="false">FM</button></div>
+<div id="update-notice" hidden><span>Hay una nueva versión lista.</span><button id="update-now">Actualizar</button></div>
+<section id="favorites-section"><div class="section-heading"><h2><span class="coral-heart">♥</span> Tus favoritas</h2><button id="edit-favorites" class="text-button" aria-label="Editar favoritas"><svg><use href="#i-edit"/></svg></button></div><div id="favorites-grid" class="station-grid"></div></section>
+<section id="directory-section"><div class="section-heading"><div><p id="section-kicker" class="eyebrow">DESCUBRE TU PRÓXIMA ESTACIÓN</p><h2 id="directory-title">Todas las emisoras</h2></div><span id="station-count" class="count"></span></div><div id="categories" class="categories" role="group" aria-label="Filtrar por categoría"></div><div id="station-list" class="station-list"></div><button id="add-station" class="add-button"><svg><use href="#i-plus"/></svg>Añadir mi emisora</button><p class="footnote">Desde Puerto Rico, dondequiera que estés. 🇵🇷<br>Requiere internet. La señal depende de cada emisora.</p></section>
+</main>
+</div>
+<div class="bottom-dock"><section class="mini-player" aria-label="Reproductor"><button id="open-player" class="player-summary" aria-label="Abrir reproductor"><span id="mini-art" class="mini-art"><svg><use href="#i-palm"/></svg></span><span class="player-copy"><strong id="mini-name">Tu isla suena aquí</strong><span id="mini-status">Elige una emisora para comenzar</span></span></button><div id="mini-wave" class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><button id="mini-play" class="play-button" aria-label="Reproducir"><svg><use href="#i-play"/></svg></button></section>
+<nav class="bottom-nav" aria-label="Navegación principal"><button data-page="home" aria-current="page"><svg><use href="#i-home"/></svg><span>Inicio</span></button><button data-page="favorites"><svg><use href="#i-heart"/></svg><span>Favoritas</span></button><button data-page="explore"><svg><use href="#i-compass"/></svg><span>Explorar</span></button></nav></div>
+<audio id="audio" preload="none" playsinline></audio>
+<div id="toast" role="status" hidden></div>
+<dialog id="sheet"><div class="sheet-handle"></div><div class="sheet-top"><h2 id="sheet-title"></h2><button id="close-sheet" class="icon-button" aria-label="Cerrar"><svg><use href="#i-close"/></svg></button></div><div id="sheet-body"></div></dialog>
+</body></html>
