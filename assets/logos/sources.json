@@ -1,0 +1,158 @@
+{
+  "reviewed": "2026-10-18",
+  "note": "Original station logos, optimized for display. All trademarks belong to their respective broadcasters.",
+  "sources": {
+    "x": {
+      "source_page": "https://www.radiodifusorespr.com/stations",
+      "image_url": "https://static.wixstatic.com/media/e51c90_0fe2d314074943809f73df8303074b90~mv2.png",
+      "size": [
+        271,
+        112
+      ]
+    },
+    "atenas": {
+      "source_page": "https://www.radiodifusorespr.com/stations",
+      "image_url": "https://static.wixstatic.com/media/e51c90_8dbd1f7f473f46ea972d0661c377b1f5~mv2.jpg",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "oro": {
+      "source_page": "https://www.radiodifusorespr.com/stations",
+      "image_url": "https://static.wixstatic.com/media/e51c90_12aab1cb79ef4185bfb43448ac83d5fb~mv2.png",
+      "size": [
+        512,
+        334
+      ]
+    },
+    "redentor": {
+      "source_page": "https://www.radiodifusorespr.com/stations",
+      "image_url": "https://static.wixstatic.com/media/e51c90_c095b5a751f74b8a898290c2efcb3fd3~mv2_d_2400_1650_s_2.jpg",
+      "size": [
+        512,
+        352
+      ]
+    },
+    "catolica": {
+      "source_page": "https://www.radiodifusorespr.com/stations",
+      "image_url": "https://static.wixstatic.com/media/e51c90_a763139243a64e479ceb47751cdbaca7~mv2.png",
+      "size": [
+        512,
+        242
+      ]
+    },
+    "zeta": {
+      "source_page": "https://zeta93.lamusica.com",
+      "image_url": "https://lamusica-assets.nyc3.cdn.digitaloceanspaces.com/artworks/68872180c8e97d1b2a2ff9fc.svg",
+      "extension": "svg"
+    },
+    "nueva": {
+      "source_page": "https://lanueva94.lamusica.com",
+      "image_url": "https://lamusica-assets.nyc3.cdn.digitaloceanspaces.com/artworks/68872180c8e97d1b2a2ffa06.svg",
+      "extension": "svg"
+    },
+    "mega": {
+      "source_page": "https://lamega.lamusica.com",
+      "image_url": "https://lamusica-assets.nyc3.cdn.digitaloceanspaces.com/artworks/68872180c8e97d1b2a2ffa0a.svg",
+      "extension": "svg"
+    },
+    "salsoul": {
+      "source_page": "https://salsoul.com",
+      "image_url": "https://salsoul.com/wp-content/uploads/2025/04/logo-salsoul-99.1.jpg",
+      "size": [
+        512,
+        511
+      ]
+    },
+    "fidelity": {
+      "source_page": "https://fidelitypr.com/",
+      "image_url": "https://fidelitypr.com/wp-content/uploads/2025/09/cropped-Untitled-design-45.png",
+      "extension": "webp"
+    },
+    "isla": {
+      "source_page": "https://radioisla.tv",
+      "image_url": "https://radioisla.tv/wp-content/uploads/2019/10/Logo-RI-Transparencia-RGB-horizontal-e1571138216940.png",
+      "size": [
+        366,
+        363
+      ]
+    },
+    "notiuno": {
+      "source_page": "https://notiuno.com",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/notiuno.com/content/tncms/custom/image/1910fac6-b6a6-11e8-bedc-73fa7469f5d8.png?resize=200%2c200",
+      "size": [
+        200,
+        200
+      ]
+    },
+    "kq": {
+      "source_page": "https://www.kq105.com",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/kq105.com/content/tncms/custom/image/23c304fa-a5bb-11ee-aed9-ab40ab64f7be.png?resize=990%2C284",
+      "size": [
+        512,
+        147
+      ]
+    },
+    "hot": {
+      "source_page": "https://hot102pr.com",
+      "image_url": "https://hot102pr.com/wp-content/uploads/2024/12/Hot-102-Logo-nuevo-small.jpg",
+      "size": [
+        143,
+        105
+      ]
+    },
+    "universidad": {
+      "source_page": "https://wrtu.uprrp.edu/",
+      "image_url": "https://wrtu.uprrp.edu/wp-content/uploads/2024/07/logo-radio-universidad-negro-blanco-wrtu-pr-1.png",
+      "extension": "webp"
+    },
+    "wiac": {
+      "source_page": "https://wiac740.com",
+      "image_url": "https://wiac740.com/wp-content/uploads/2020/02/LogoWIAC_Freq-01-300x156.png",
+      "size": [
+        300,
+        156
+      ]
+    },
+    "cumbre": {
+      "source_page": "https://cumbre1470am.com",
+      "image_url": "https://cumbre1470am.com/wp-content/uploads/2022/03/Cumbre-1470am-Logo.png",
+      "size": [
+        512,
+        273
+      ]
+    },
+    "1480": {
+      "source_page": "https://www.el1480.net",
+      "image_url": "https://www.el1480.net/img/512Logo-1480am%20copy.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "magic": {
+      "source_page": "https://www.magic973.com/",
+      "image_url": "https://www.magic973.com/img/logoFoot.png",
+      "extension": "webp"
+    },
+    "wkaq": {
+      "source_page": "https://www.wkaq580.com",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/wkaq580.com/content/tncms/custom/image/9732c65a-a5bb-11ee-8102-67d137cd6b72.png?resize=400%2C167",
+      "size": [
+        400,
+        167
+      ]
+    },
+    "wapa": {
+      "source_page": "https://apps.apple.com/us/app/wapa-radio/id1637329555",
+      "image_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/2b/05/322b05ef-eaa4-9b5c-9712-ddb40b9a4d8f/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/400x400ia-75.webp",
+      "extension": "webp"
+    },
+    "exitos": {
+      "source_page": "https://tunein.com/radio/Exitos-1530-WUPR-AM-s23413/",
+      "image_url": "https://cdn-profiles.tunein.com/s23413/images/logod.jpg?t=638046181820000000",
+      "extension": "webp"
+    }
+  }
+}

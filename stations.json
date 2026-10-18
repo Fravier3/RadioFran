@@ -10,7 +10,8 @@
     "homepage": "https://salsoul.com",
     "art": "palm",
     "tint": "#6d594b",
-    "color": "#ffab72"
+    "color": "#ffab72",
+    "logo": "./assets/logos/salsoul.webp"
   },
   {
     "id": "zeta",
@@ -24,7 +25,8 @@
     "art": "leaf",
     "tint": "#075d53",
     "color": "#65daa8",
-    "directoryId": "a91013aa-a0b5-431b-aabe-145fc2a520aa"
+    "directoryId": "a91013aa-a0b5-431b-aabe-145fc2a520aa",
+    "logo": "./assets/logos/zeta.svg"
   },
   {
     "id": "nueva",
@@ -37,7 +39,8 @@
     "homepage": "https://www.lamusica.com/stations/woda",
     "art": "flower",
     "tint": "#563d51",
-    "color": "#ff777d"
+    "color": "#ff777d",
+    "logo": "./assets/logos/nueva.svg"
   },
   {
     "id": "fidelity",
@@ -51,7 +54,8 @@
     "art": "wave",
     "tint": "#004f63",
     "color": "#21c5e2",
-    "directoryId": "ab414e56-3733-4c14-845a-b82d73fb099c"
+    "directoryId": "ab414e56-3733-4c14-845a-b82d73fb099c",
+    "logo": "./assets/logos/fidelity.webp"
   },
   {
     "id": "isla",
@@ -65,7 +69,8 @@
     "art": "RI",
     "tint": "#6d594b",
     "color": "#ffab72",
-    "directoryId": "c0fb4c86-1a71-411c-ada4-99f102f3b425"
+    "directoryId": "c0fb4c86-1a71-411c-ada4-99f102f3b425",
+    "logo": "./assets/logos/isla.webp"
   },
   {
     "id": "notiuno",
@@ -78,7 +83,8 @@
     "homepage": "https://notiuno.com",
     "art": "630",
     "tint": "#28545c",
-    "color": "#ffc080"
+    "color": "#ffc080",
+    "logo": "./assets/logos/notiuno.webp"
   },
   {
     "id": "wapa",
@@ -91,7 +97,8 @@
     "homepage": "https://waparadio.com",
     "art": "W",
     "tint": "#075d53",
-    "color": "#65daa8"
+    "color": "#65daa8",
+    "logo": "./assets/logos/wapa.webp"
   },
   {
     "id": "kq",
@@ -105,7 +112,8 @@
     "art": "KQ",
     "tint": "#563d51",
     "color": "#ff777d",
-    "directoryId": "5eb5456c-5f38-4aa6-b800-d07dcf2683e5"
+    "directoryId": "5eb5456c-5f38-4aa6-b800-d07dcf2683e5",
+    "logo": "./assets/logos/kq.webp"
   },
   {
     "id": "mega",
@@ -118,7 +126,8 @@
     "homepage": "https://www.lamusica.com/stations/wmeg",
     "art": "M",
     "tint": "#004f63",
-    "color": "#21c5e2"
+    "color": "#21c5e2",
+    "logo": "./assets/logos/mega.svg"
   },
   {
     "id": "hot",
@@ -132,7 +141,8 @@
     "art": "HOT",
     "tint": "#6d594b",
     "color": "#ffab72",
-    "directoryId": "d11f4ae1-8302-4883-b4b3-f02d308e3dda"
+    "directoryId": "d11f4ae1-8302-4883-b4b3-f02d308e3dda",
+    "logo": "./assets/logos/hot.webp"
   },
   {
     "id": "x",
@@ -146,7 +156,8 @@
     "art": "X",
     "tint": "#075d53",
     "color": "#65daa8",
-    "directoryId": "909fe396-4f70-4a03-b14b-4cfe86ff7b7d"
+    "directoryId": "909fe396-4f70-4a03-b14b-4cfe86ff7b7d",
+    "logo": "./assets/logos/x.webp"
   },
   {
     "id": "universidad",
@@ -160,7 +171,9 @@
     "art": "UPR",
     "tint": "#563d51",
     "color": "#ff777d",
-    "directoryId": "ad911f6a-1b9e-4ca2-924b-b74a49043e82"
+    "directoryId": "ad911f6a-1b9e-4ca2-924b-b74a49043e82",
+    "logo": "./assets/logos/universidad.webp",
+    "logoDark": true
   },
   {
     "id": "catolica",
@@ -174,7 +187,8 @@
     "art": "CR",
     "tint": "#004f63",
     "color": "#21c5e2",
-    "directoryId": "357a56ea-3ca3-4529-a5d0-3d2aadf1be70"
+    "directoryId": "357a56ea-3ca3-4529-a5d0-3d2aadf1be70",
+    "logo": "./assets/logos/catolica.webp"
   },
   {
     "id": "redentor",
@@ -187,7 +201,8 @@
     "homepage": "https://www.facebook.com/104.1Redentor",
     "art": "R",
     "tint": "#6d594b",
-    "color": "#ffab72"
+    "color": "#ffab72",
+    "logo": "./assets/logos/redentor.webp"
   },
   {
     "id": "wiac",
@@ -201,7 +216,8 @@
     "art": "740",
     "tint": "#075d53",
     "color": "#65daa8",
-    "directoryId": "2e1e1698-f552-4ce3-b7aa-28d9270aa668"
+    "directoryId": "2e1e1698-f552-4ce3-b7aa-28d9270aa668",
+    "logo": "./assets/logos/wiac.webp"
   },
   {
     "id": "cumbre",
@@ -215,7 +231,9 @@
     "art": "C",
     "tint": "#563d51",
     "color": "#ff777d",
-    "directoryId": "c8a78cc5-38a9-4351-a7d0-557fa6cb69ef"
+    "directoryId": "c8a78cc5-38a9-4351-a7d0-557fa6cb69ef",
+    "logo": "./assets/logos/cumbre.webp",
+    "logoDark": true
   },
   {
     "id": "1480",
@@ -229,7 +247,8 @@
     "art": "1480",
     "tint": "#004f63",
     "color": "#21c5e2",
-    "directoryId": "f0ee3475-0725-4511-8320-c6461f04f1b7"
+    "directoryId": "f0ee3475-0725-4511-8320-c6461f04f1b7",
+    "logo": "./assets/logos/1480.webp"
   },
   {
     "id": "atenas",
@@ -242,7 +261,8 @@
     "homepage": "",
     "art": "A",
     "tint": "#6d594b",
-    "color": "#ffab72"
+    "color": "#ffab72",
+    "logo": "./assets/logos/atenas.webp"
   },
   {
     "id": "exitos",
@@ -255,7 +275,8 @@
     "homepage": "",
     "art": "É",
     "tint": "#075d53",
-    "color": "#65daa8"
+    "color": "#65daa8",
+    "logo": "./assets/logos/exitos.webp"
   },
   {
     "id": "oro",
@@ -269,7 +290,8 @@
     "art": "ORO",
     "tint": "#563d51",
     "color": "#ff777d",
-    "directoryId": "60781246-f09d-4775-b1f9-0c9d02297a91"
+    "directoryId": "60781246-f09d-4775-b1f9-0c9d02297a91",
+    "logo": "./assets/logos/oro.webp"
   },
   {
     "id": "magic",
@@ -283,7 +305,8 @@
     "art": "97",
     "tint": "#004f63",
     "color": "#21c5e2",
-    "directoryId": "b0ce91c3-1b72-45e6-bd46-df86aa76d30d"
+    "directoryId": "b0ce91c3-1b72-45e6-bd46-df86aa76d30d",
+    "logo": "./assets/logos/magic.webp"
   },
   {
     "id": "wkaq",
@@ -297,6 +320,7 @@
     "art": "580",
     "tint": "#6d594b",
     "color": "#ffab72",
-    "directoryId": "b95692d0-9b6f-4810-b6e6-395bbe6a5d0b"
+    "directoryId": "b95692d0-9b6f-4810-b6e6-395bbe6a5d0b",
+    "logo": "./assets/logos/wkaq.webp"
   }
 ]
