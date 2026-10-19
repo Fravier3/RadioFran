@@ -32,3 +32,6 @@ Favoritas comienza vacía en dispositivos nuevos o sin preferencias guardadas. L
 
 ## Corrección 1.1.2
 Limpieza única de favoritas almacenadas por las versiones antiguas, incluidas las precargadas. La marca `favoritesVersion: 2` preserva las elecciones posteriores; no se eliminan emisoras personales ni colores ni configuración. El módulo de preferencias se versiona junto al resto de la app para evitar mezclar archivos antiguos y nuevos.
+
+## Corrección 1.1.3
+WKAQ 580: reemplaza la señal HLS que devuelve error 500 al resolver la lista secundaria por la señal pública MP3 HTTPS de WKAQ. Verificada respuesta audio/mpeg, identificación ICY de WKAQ, decodificación MP3 y audio no silencioso el 19 de octubre de 2026. Se mantienen las favoritas y preferencias.
